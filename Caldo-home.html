@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+       
+
+        #pic-heading {
+            background-image: url(Header2.jpg);
+            height: 600px;
+            width: 100%;
+            background-position: center;
+        }
+
+        #pic-heading-title {
+            color: white;
+            font-size: 40px;
+            position: relative;
+            text-align: center;
+            padding-top: 100px;
+        }
+
+        #pic-heading-btn {
+            position: relative;
+            text-align: center;
+        }
+
+        .btn {
+            color: white;
+            font-family: 'Cormorant Garamond';
+            border: none;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #buy {
+            background-color: #852119;
+        }
+
+        #buy:hover {
+            cursor: pointer;
+            background-color: #911910;
+        }
+
+        #learn {
+
+            background-color: #163824;
+            margin-left: 20px;
+        }
+
+        #learn:hover {
+            cursor: pointer;
+            background-color: #0b4925;
+            ;
+        }
+
+        #icon-info {
+            display: flex;
+            margin: 30px;
+
+        }
+
+        .icon-info-title {
+            font-size: 25px;
+        }
+
+        .icon-info-text {
+            width: 350px;
+            font-size: 18px;
+        }
+
+        .icon-info-box {
+            padding-left: 55px;
+        }
+
+        .icon-info-box img {
+            padding-left: 100px;
+        }
+
+        #coffee-of-the-month img {
+            padding: 20px;
+            padding-top: 50px;
+            float: left;
+
+        }
+
+        #coffee-of-the-month {
+            padding: 20px;
+            background-color: #FBEBE7;
+        }
+
+        #coffee-of-the-month-title {
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        #coffee-of-the-month-text {
+            line-height: 40px;
+            font-size: 20px;
+            ;
+        }
+
+        #coffee-of-the-month-btn {
+            background-color: #852119;
+            color: white;
+            font-family: 'Cormorant Garamond';
+            border: none;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 30px;
+        }
+
+        #coffee-of-the-month-btn:hover {
+            background-color: #911910;
+            cursor: pointer;
+        }
+
+        #coffee-special img {
+            padding-left: 20px;
+            padding-top: 20px;
+            padding-right: 60px;
+            float: right;
+        }
+
+        #coffee-special {
+            background-color: #E2EFE7;
+        }
+
+        #coffee-special-title {
+            font-weight: bold;
+            padding-top: 100px;
+            padding-left: 60px;
+            font-size: 50px;
+        }
+
+        #coffee-special-text {
+            padding-left: 60px;
+            font-size: 20px;
+            line-height: 40px;
+        }
+
+        #coffee-special-btn {
+            background-color: #852119;
+            color: white;
+            font-family: 'Cormorant Garamond';
+            border: none;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+            margin-bottom: 200px;
+            margin-left: 100px;
+
+        }
+
+        #coffee-special-btn:hover {
+            background-color: #911910;
+            cursor: pointer;
+        }
+
+        #fermer-info {
+            padding: 20px;
+            margin-top: 30px;
+            background-color: #163824;
+            color: white;
+        }
+
+        #fermer-info img {
+            float: left;
+            padding-right: 20px;
+            padding-top: 70px;
+        }
+
+        #fermer-info-title {
+            font-weight: bold;
+            padding-top: 15px;
+            font-size: 50px;
+        }
+
+        #fermer-info-text {
+            padding-left: 60px;
+            font-size: 20px;
+            line-height: 40px;
+        }
+
+        #society-info {
+            background-color: #E2EFE7;
+        }
+
+        #society-title {
+            font-size: 50px;
+        }
+
+        #society-text {
+            font-size: 20px;
+            line-height: 40px;
+        }
+
+        #society-info {
+            margin-top: 30px;
+            padding: 30px;
+        }
+
+        #society-info-people img {
+            width: 250px;
+            border-radius: 50%;
+
+        }
+
+        #society-info-people {
+            display: flex;
+        }
+
+        .quote {
+            font-size: 18px;
+            line-height: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .name-people {
+            font-size: 20px;
+            padding-left: 60px;
+        }
+
+        #society-info-people-3 img {
+            padding-left: 70px;
+        }
+
+        #society-info-people-1 img {
+            padding-left: 50px;
+        }
+
+        #try-caldo {
+            background-color: #163824;
+            color: white;
+        }
+
+        #try-caldo p {
+            font-size: 55px;
+            text-align: center;
+        }
+
+        #try-caldo button {
+            background-color: #852119;
+            color: white;
+            font-family: 'Cormorant Garamond';
+            border: none;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 4px;
+            margin-left: 550px;
+            margin-bottom: 40px;
+        }
+
+        #try-caldo button:hover {
+            background-color: #911910;
+            cursor: pointer;
+        }
+
+        #society-text a {
+            outline: none;
+            text-decoration: none;
+            color: #852119;
+        }
+
+      
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="navbar">
+            <div id="logo-heading">
+                <div id="site-logo">
+                    <a href="Caldo-home.html">
+                        <img src="caldo-specialty-coffee-no-frame-logo.jpg">
+                    </a>
+                </div>
+                <div id="heading">
+                    <h2><a href="Caldo-home.html">Caldo Specialty Coffee</a></h2>
+                </div>
+            </div>
+            <div id="navigation">
+                <ul id="primary-navigation-main">
+                    <li id="menu-nachalo" class="menu-item-li">
+                        <a href="Caldo-home.html">Начало</a>
+                    </li>
+                    <li id="menu-za-nas" class="menu-item-li"><a href="Caldo-about-us.html">За Нас</a></li>
+                    <li id="menu-magazin" class="menu-item-li"><a href="Caldo-shop.html">Магазин</a>
+                        <!-- <ul class="sub-menu">
+                            <li id="menu-kafe-na-meseca" class="menu-item"><a href="">Кафе на месеца</a></li>
+                        </ul> -->
+                    </li>
+                    <li id="menu-blog" class="menu-item-li"><a href="Caldo-blog.html">Блог</a></li>
+                    <li id="menu-kontakt" class="menu-item-li"><a href="Caldo-contact-us.html">Свържи се с нас</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="sticky">
+            <div id="social-mail">
+                <a class=" sficn" data-effect="" target="_blank"
+                href="Caldo-contact-us.html"
+                    id="sfsiid_email_icon" style="width:40px;height:40px;opacity:1;"><img data-pin-nopin="true"
+                        alt="Follow by Email" title="Follow by Email"
+                        src="https://deimos.ue-varna.bg/~rmk/wordpress/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/black/black_email.png"
+                        width="40" height="40" class="sfcm sfsi_wicon " data-effect=""></a>
+            </div>
+            <div id="social-facebook">
+                <a class=" sficn" data-effect="" target="_blank" href="https://www.facebook.com/login"
+                    id="sfsiid_facebook_icon" style="width:40px;height:40px;opacity:1;"><img data-pin-nopin="true"
+                        alt="Facebook" title="Facebook"
+                        src="https://deimos.ue-varna.bg/~rmk/wordpress/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/black/black_facebook.png"
+                        width="40" height="40" class="sfcm sfsi_wicon " data-effect=""></a>
+            </div>
+            <div id="social-instagram">
+
+                <div class="inerCnt" style="z-index: 999;"><a class=" sficn" data-effect="" target="_blank"
+                        href="https://www.instagram.com/" id="sfsiid_instagram_icon"
+                        style="width:40px;height:40px;opacity:1;"><img data-pin-nopin="true" alt="Instagram"
+                            title="Instagram"
+                            src="https://deimos.ue-varna.bg/~rmk/wordpress/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/black/black_instagram.png"
+                            width="40" height="40" class="sfcm sfsi_wicon " data-effect=""></a></div>
+            </div>
+        </div>
+
+
+        <div id="pic-heading">
+            <div id="pic-heading-title">
+                <h1>Caldo Specialty Coffee</h1>
+                <p>Превърни кафе навика си в страст!</p>
+            </div>
+            <div id="pic-heading-btn">
+                <button id="buy" class="btn" onclick="window.location.href='Caldo-shop.html'">КУПИ КАФЕ</button>
+                <button id="learn" class="btn" onclick="window.location.href='Caldo-about-us.html'">НАУЧИ
+                    ПОВЕЧЕ</button>
+            </div>
+        </div>
+
+        <div id="icon-info">
+            <div class="icon-info-box" id="icon-info-box-1">
+                <img src="Screenshot 2022-04-27 121602.jpg">
+                <p class="icon-info-title">Внимателно селектирани кафета:</p>
+                <p class="icon-info-text">С перфектната степен на изпичане за постигане на съблазнително вълнуващ и все
+                    пак – балансиран вкус.</p>
+            </div>
+            <div class="icon-info-box" id="icon-info-box-2">
+                <img src="Screenshot 2022-04-27 122243.jpg">
+                <p class="icon-info-title">Световно признато качество:</p>
+                <p class="icon-info-text">Кафе зърна с проследим произход, получили висока оценка от сертифицирани
+                    грейдъри и дегустатори.</p>
+            </div>
+            <div class="icon-info-box" id="icon-info-box-3">
+                <img src="Screenshot 2022-04-27 122302.jpg">
+                <p class="icon-info-title">За съвършената чаша кафе.</p>
+                <p class="icon-info-text">Която ще ти позволи да се потопиш в света на спешълти кафето и да преживееш
+                    удоволствието, което той носи.</p>
+            </div>
+
+        </div>
+
+        <div id="coffee-of-the-month">
+            <img src="Screenshot 2022-04-27 130150.jpg">
+            <p id="coffee-of-the-month-title">Виж нашето кафе на месеца!</p>
+            <p id="coffee-of-the-month-text">Всеки месец добавяме ново спешълти кафе с уникален вкусов профил в нашата
+                селекция. Подбираме степента на изпичане така, че да подчертае приятните вкусови нотки, присъщи на кафе
+                зърната. Новите предложения в нашия асортимент са с промоционална цена и ти дават възможност да се
+                запознаеш с по-широка гама спешълти кафета, за да разбереш кои вкусове ти допадат повече. Този месец
+                предлагаме две нови кафета, отгледани със старание и грижа – Кения и Коста Рика.</p>
+            <button id="coffee-of-the-month-btn" onclick="window.location.href='Caldo-coffee-of-the-month.html'">Научи
+                повече за кафе предложението на месеца</button>
+        </div>
+
+        <div id="coffee-special">
+            <img src="caldo_specialty_coffee_image_homepage.jpg">
+            <p id="coffee-special-title">Какво прави нашето кафе толкова специално?</p>
+            <p id="coffee-special-text">Спешълти кафето ти дава възможност да се насладиш на истински качествено кафе,
+                отгледано и обработено с внимание и грижа. Ние подбираме само зелени кафе зърна от висок клас и
+                проследим произход. След като селектираме зърната от ферми с прецизни практики на отглеждане и
+                обработка, правим дегустация, чрез която избираме идеалната степен на изпичане, която не замаскира
+                същностните вкусове на кафето. Изпичането е завършващият щрих, който прави вкусът перфектно балансиран и
+                приятен. Така можеш да си приготвиш чаша кафе с комплексен вкус и да се насладиш на магията на едно ново
+                кафе изживяване.</p>
+            <button id="coffee-special-btn" onclick="window.location.href='Caldo-about-us.html'">Научи повече</button>
+        </div>
+
+        <div id="fermer-info">
+            <div id="fermer-info-img">
+                <img src="kafe-fermi.jpg">
+            </div>
+            <div id="fermer-info-info">
+                <p id="fermer-info-title">Не всичко е във вкуса!</p>
+                <p id="fermer-info-text">Избирайки кафе от Caldo Specialty Coffee ти подпомагаш фермерите, които полагат
+                    усилие за
+                    производство на висококачествено кафе. Често кафе производителите от слабо развитите африкански и
+                    азиатски страни не получават достатъчно висока цена за реколтата си. Това води до неетични работни
+                    практики, недостатъчно заплащане на работниците и понижаване на качеството на кафе продукцията.
+                    Фермерте, с които ние от Caldo работим получават висока цена за кафето, което отглеждат. Чрез
+                    пряката си комуникация с тях, ние не само осигуряваме високото качество на селектираните кафета. Ние
+                    подпомагаме устойчивото развитие на кафе производството, осигурявайки мотивация за напредък и доход,
+                    с който фермерите могат да водят достоен живот.</p>
+                <p>Алехандро Гарсия – един от фермерите, с които работим.</p>
+            </div>
+        </div>
+
+        <div id="society-info">
+            <div id="society-info-info">
+                <p id="society-title">Caldo Specialty Coffee Общността</p>
+                <p id="society-text">Стани част от нашата общност от кафе любители и сподели опита си с нашите кафета! В
+                    нашата <a href="https://www.facebook.com/">фейсбук страница</a> можеш да споделяш какви техники
+                    използваш, за да приготвиш своята сутришна
+                    чаша кафе и какви вкусови профили предпочиташ. И най-важното – можеш да подобряваш уменията си и
+                    кафе преживяването си, намирайки кафе препоръки от други страстни кафе любители. Виж отзиви от наши
+                    потребители, които са станали част от нашата Caldo Specialty Coffee общност:</p>
+            </div>
+            <div id="society-info-people">
+                <div id="society-info-people-1">
+                    <img src="team-03.jpg">
+                    <p class="name-people">Мария Георгиева</p>
+                    <img src="Screenshot 2022-04-27 144333.jpg">
+                    <p class="quote">“С Caldo Specialty Coffee всеки месец пия висококачествено кафе, което знам, че
+                        съвпада с
+                        принципите ми за устойчива консумация. Най-важното – вече превърнах кафе навика си в ритуал, с
+                        който слагам началото на един по-хубав и продуктивен ден. Полагам повече усилие да приготвя
+                        кафето си по най-добрия начин, за да се насладя на уникалните вкусове, които липсват в
+                        обикновеното кафе. Обичам кафетата с плодови нотки и изразена киселинност. Бих препоръчала Caldo
+                        на всеки кафе любител – начинаещ и напреднал.”</p>
+                </div>
+                <div id="society-info-people-2">
+                    <img src="team-01.jpg">
+                    <p class="name-people">Георги Петров</p>
+                    <img src="Screenshot 2022-04-27 144333.jpg">
+                    <p class="quote">“Пия спешълти кафе от години и много харесвам селекцията на Caldo Specialty Coffee.
+                        Любимо ми е
+                        кафето от Етиопия с плътно тяло и вкусови нотки на горски плодове. Приготвям си го с Харио V60 и
+                        използвам рецептата, публикувана в Caldo блога. Там научавам много нови неща за света на кафето
+                        и подобрявам знанията си за кафе хобито си.”</p>
+                </div>
+                <div id="society-info-people-3">
+                    <img src="team-02.jpg">
+                    <p class="name-people">Иван Георгиев</p>
+                    <img src="Screenshot 2022-04-27 144333.jpg">
+                    <p class="quote">“Честно казано не разбирах защо някой би платил толкова висока цена за кафе, но
+                        откакто опитах
+                        спешълти кафето на Caldo разбрах, че досега съм се лишавал от удоволствието, което истински
+                        качественото кафе носи. Фен съм на хубавото вино и дегустацията и може би затова намирам за
+                        вълнуващо разнообразието във вкусовете на различните кафета от Caldo селекцията. Бих препоръчал
+                        на всеки кафе любител с изтънчено небце да опита продуктите на Caldo поне веднъж!”</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="try-caldo">
+            <p>Опитай нашите Caldo спешълти кафета, или направи подарък за свой близък, който обича истински хубавото
+                кафе!</p>
+            <button onclick="window.location.href='Caldo-shop.html'">Виж нашите предложения</button>
+        </div>
+
+        <div id="footer">
+            <footer>
+                <p>Caldo Specialty Coffee | Варна, България,<br>
+                    е-mail: caldo-specialty-coffee@gmail.com</p>
+            </footer>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

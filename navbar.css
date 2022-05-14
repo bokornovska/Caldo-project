@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: 'Cormorant Garamond'
+}
+#navbar {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+}
+
+#navigation {
+    margin-right: 30px;
+}
+
+#navigation li {
+    list-style-type: none;
+    float: left;
+    padding-bottom: 10px;
+
+}
+
+#navigation li a {
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    color: black;
+}
+
+#navigation li a:hover {
+    color: #852119;
+}
+
+#logo-heading {
+    display: flex;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+#heading {
+    
+    margin-left: 20px;
+    color: #852119;
+}
+#heading a{
+    color:#852119;
+    text-decoration: none;
+}
+
+#site-logo img {
+    width: 120px;
+    height: 60px;
+}
+#sticky {
+    display: flex;
+    position: sticky;
+    position: -webkit -sticky;
+    top: 0;
+    margin-left: 1150px;
+    padding-top: 20px;
+}
+
+#footer {
+    font-size: 20px;
+    text-align: center;
+}

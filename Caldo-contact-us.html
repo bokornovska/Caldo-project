@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Cormorant Garamond' rel='stylesheet'>
+    <link rel="stylesheet" href="navbar.css">
+
+    <style>
+          
+        #contact-us {
+            padding-left: 70px;
+            padding-right: 70px;
+            padding-bottom: 50px;
+        }
+
+        #contact-us-title {
+            margin-top: 20px;
+            font-size: 70px;
+        }
+
+        #contact-us-text {
+            font-size: 25px;
+            line-height: 40px;
+        }
+
+        .names {
+            padding: 10px;
+            margin: 20px;
+        }
+
+        #my-form label {
+            font-size: 20px;
+            font-weight: bolder;
+            margin-bottom: 20px;
+        }
+
+        #other-info textarea {
+            height: 300px;
+            width: 900px;
+        }
+
+        #submit-btn {
+            background-color: #852119;
+            color: white;
+            font-family: 'Cormorant Garamond';
+            border: none;
+            font-size: 20px;
+            padding: 15px;
+            border-radius: 4px;
+        }
+
+        #about-us-contact-info {
+            font-size: 30px;
+            text-align: center;
+           
+        }
+     
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <div id="navbar">
+            <div id="logo-heading">
+                <div id="site-logo">
+                    <a href="Caldo-home.html">
+                        <img src="caldo-specialty-coffee-no-frame-logo.jpg">
+                    </a>
+                </div>
+                <div id="heading">
+                    <h2><a href="Caldo-home.html">Caldo Specialty Coffee</a></h2>
+                </div>
+            </div>
+            <div id="navigation">
+                <ul id="primary-navigation-main">
+                    <li id="menu-nachalo" class="menu-item-li">
+                        <a href="Caldo-home.html">Начало</a>
+                    </li>
+                    <li id="menu-za-nas" class="menu-item-li"><a href="Caldo-about-us.html">За Нас</a></li>
+                    <li id="menu-magazin" class="menu-item-li"><a href="Caldo-shop.html">Магазин</a>
+                        <!-- <ul class="sub-menu">
+                                <li id="menu-kafe-na-meseca" class="menu-item"><a href="">Кафе на месеца</a></li>
+                            </ul> -->
+                    </li>
+                    <li id="menu-blog" class="menu-item-li"><a href="Caldo-blog.html">Блог</a></li>
+                    <li id="menu-kontakt" class="menu-item-li"><a href="Caldo-contact-us.html">Свържи се с нас</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="sticky">
+            <div id="social-mail">
+                <a class=" sficn" data-effect="" target="_blank"
+                    href="https://api.follow.it/widgets/icon/K2pRTU9pZzVMclg1aWF3ZFMyNmxRd3BQV1lqSDllcDVoV2YvYkFIbTZyckZmbFROb0R3aUdNalc3V3NIS0d3c0FnL2JTMHNWOHY3L2VCZnNNNE5FRFFCSmNYY21XYVRia1ZvVmZ6Q1V0b09CZVlZckpsUWgybWFFOWdiVllqRk18a0dxRHBMbDVCK2lDNnkxOGd6bHhOWW5zMUJBVWZCbTV0Z1o2YTk2SENGYz0=/OA==/"
+                    id="sfsiid_email_icon" style="width:40px;height:40px;opacity:1;"><img data-pin-nopin="true"
+                        alt="Follow by Email" title="Follow by Email"
+                        src="https://deimos.ue-varna.bg/~rmk/wordpress/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/black/black_email.png"
+                        width="40" height="40" style="" class="sfcm sfsi_wicon " data-effect=""></a>
+            </div>
+            <div id="social-facebook">
+                <a class=" sficn" data-effect="" target="_blank" href="https://www.facebook.com/login.php"
+                    id="sfsiid_facebook_icon" style="width:40px;height:40px;opacity:1;"><img data-pin-nopin="true"
+                        alt="Facebook" title="Facebook"
+                        src="https://deimos.ue-varna.bg/~rmk/wordpress/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/black/black_facebook.png"
+                        width="40" height="40" style="" class="sfcm sfsi_wicon " data-effect=""></a>
+            </div>
+            <div id="social-instagram">
+
+                <div class="inerCnt" style="z-index: 999;"><a class=" sficn" data-effect="" target="_blank"
+                        href="https://www.instagram.com/" id="sfsiid_instagram_icon"
+                        style="width:40px;height:40px;opacity:1;"><img data-pin-nopin="true" alt="Instagram"
+                            title="Instagram"
+                            src="https://deimos.ue-varna.bg/~rmk/wordpress/wp-content/plugins/ultimate-social-media-icons/images/icons_theme/black/black_instagram.png"
+                            width="40" height="40" class="sfcm sfsi_wicon " data-effect=""></a></div>
+            </div>
+        </div>
+        <div id="contact-us">
+
+            <div id="contact-us-heading">
+                <p id="contact-us-title">Свържи се с нас:</p>
+                <p id="contact-us-text">Ако имаш въпроси относно нашите продукти, или искаш да се свържеш с нас, за
+                    да ни зададеш въпрос,
+                    можеш да използваш следната контактна форма:</p>
+            </div>
+
+            <div id="contact-us-form">
+                <form id="my-form">
+                    <div id="names">
+                        <label for="fname">Име</label>
+                        <input type="text" id="fname" class="names" required>
+
+                        <label for="lname">Фамилия</label>
+                        <input type="text" id="lname" class="names" required>
+                        <br>
+                    </div>
+
+                    <div id="other-info">
+                        <label for="e-mail">Email</label>
+                        <input type="text" id="e-mail" class="names" required>
+                        <br>
+                        <label for="subject">Съобщение:</label><br>
+                        <textarea id="subject" name="subject" required></textarea>
+                        <br>
+                        <input type="submit" id="submit-btn" value="Изпрати">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div id="about-us-contact-info">
+            <p><strong>E-mail:</strong> caldo@gmail.com</p>
+            <p><strong>Телефон:</strong> 0883 432 132</p>
+            <p><strong>Facebook:</strong> Caldo Specialty Coffee</p>
+            <p><strong>Instagram:</strong> Caldo_society</p>
+        </div>
+
+        <div id="footer">
+            <footer>
+                <p>Caldo Specialty Coffee | Варна, България,<br>
+                    е-mail: caldo-specialty-coffee@gmail.com</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
